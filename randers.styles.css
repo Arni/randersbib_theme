@@ -6,3 +6,5 @@
 .genre-list-big {border-top: 1px solid #EFEFEF} 
 .genre-list-big .group-blocks--inner {margin-top: 0px; padding-top: 10px; border-top:none}
 .genre-list-detail-wrapper .sub-menu > li {border-bottom: none;}
+.students-content-left {width:50%; float: left}
+.students-content-right{width:50%; float: right}
