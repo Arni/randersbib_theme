@@ -9,3 +9,11 @@
 .students-content-left {width:50%; float: left}
 .students-content-right{width:50%; float: right}
 .pane-inspiration-page-covers li.list-item{display: inline-block;}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .genre-list .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
+  .genre-list .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
+  .genre-list .group-blocks--third {width: 50%; clear:none;border-bottom: none;}
+  .genre-list .group-blocks--fourth {width: 50%; margin-left:50%; float:none; clear:none; padding-left:10px;border-bottom: none;}
+  .group-blocks-2columns {clear:both; border-top: 1px solid #EFEFEF; padding-top:20px;}
+}
