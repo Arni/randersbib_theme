@@ -9,6 +9,7 @@
 .students-content-left {width:50%; float: left}
 .students-content-right{width:50%; float: right}
 .pane-inspiration-page-covers li.list-item{display: inline-block;}
+.pane-top-recommendation-list{background-color: #ffffff;}
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
   .genre-list .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
