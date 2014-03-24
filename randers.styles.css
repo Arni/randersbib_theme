@@ -1,4 +1,4 @@
-.group-blocks--four .group-blocks--fourth{padding-right: 10px;}
+.genre-list-big .group-blocks--fourth{padding-right: 10px;}
 .genre-list-big .group-blocks--first {padding-left: 10px;}
 .group-blocks--inner p {margin-top: 0px;}
 .page-content .group-blocks--inner  li {list-style: none outside none;}
@@ -12,9 +12,9 @@
 .pane-top-recommendation-list{background-color: #ffffff;}
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
-  .genre-list .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
-  .genre-list .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
-  .genre-list .group-blocks--third {width: 50%; clear:none;border-bottom: none;}
-  .genre-list .group-blocks--fourth {width: 50%; margin-left:50%; float:none; clear:none; padding-left:10px;border-bottom: none;}
+  .genre-list-big .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
+  .genre-list-big .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
+  .genre-list-big .group-blocks--third {width: 50%; clear:none;border-bottom: none;padding-left:10px;}
+  .genre-list-big .group-blocks--fourth {width: 50%; margin-left:50%; float:none;padding-left: 10px;padding-right:0;clear:none;border-bottom: none;}
   .group-blocks-2columns {clear:both; border-top: 1px solid #EFEFEF; padding-top:20px;}
 }
