@@ -20,3 +20,6 @@
   .genre-list-big .group-blocks--fourth {width: 50%; margin-left:50%; float:none;padding-left: 10px;padding-right:0;clear:none;border-bottom: none;}
   .group-blocks-2columns {clear:both; border-top: 1px solid #EFEFEF; padding-top:20px;}
 }
+
+/* Fakta-box */
+.ding-fakta-box {border-left:5px solid #EFEFEF;}

@@ -16,6 +16,7 @@ function randersbib_theme_preprocess_node(&$variables) {
 		$items = field_get_items('node', $node, 'field_collection_fakta_box');
 		$fakta_box = field_view_value('node', $node, 'field_collection_fakta_box', $items[0], array(
 			'label' => 'hidden',
+			// We just want to render the fields of the field collection
 			'type' => 'field_collection_fields',
 		));
 		$variables['ding_fakta_box'] = drupal_render($fakta_box);	
@@ -27,8 +28,18 @@ function randersbib_theme_preprocess_node(&$variables) {
  */
 function randersbib_theme_preprocess_entity(&$variables) {
 	$entity = $variables['elements']['#entity'];
+	$type = $variables['elements']['#entity_type'];
+	$bundle = $variables['elements']['#bundle'];
+	$content = $variables['content'];
 	// Special handling if this entity is a Fakta box field collection.
-	if (isset($entity->field_name) && $entity->field_name == 'field_collection_fakta_box') {
-		file_put_contents("/home/drupalpro/debug/debug.txt", print_r($entity->field_name , TRUE), FILE_APPEND);
+	if ($type == 'field_collection_item' && $bundle == 'field_collection_fakta_box') {
+		// Find out if we should show the fakta box.
+		$items = field_get_items('field_collection_item', $entity, 'field_ding_fakta_box_show');
+		$show = $items[0]['value'];
+		if ($show) {
+			$show = isset($content['field_ding_fakta_box_title']) && 
+				isset($content['field_ding_fakta_box_content']);
+		}
+		$variables['show'] = $show;
 	}
 }
