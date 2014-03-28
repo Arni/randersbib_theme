@@ -22,4 +22,9 @@
 }
 
 /* Fakta-box */
+.ding-fakta-box .ding-fakta-box-content p {border-left:none;padding-left:0;}
 .ding-fakta-box {border-left:5px solid #EFEFEF;}
+.ding-fakta-box .content-wrapper {border:3px solid #EFEFEF;margin:0;margin-left: 15px;margin-right:15px;}
+.ding-fakta-box .ding-fakta-box-title {padding-left:5px;border-bottom:3px solid #EFEFEF;}
+.ding-fakta-box .ding-fakta-box-content {padding-left:10px;padding-top:10px;}
+

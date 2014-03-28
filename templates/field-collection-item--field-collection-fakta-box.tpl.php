@@ -12,10 +12,13 @@
 
 <?php if ($show): ?>
 	<div class="<?php print $classes; ?> ding-fakta-box clearfix" <?php print $attributes; ?>>
-	  <div class="content"<?php print $content_attributes; ?>>
-	    <?php
-	      print render($content);
-	    ?>
+	  <div class="content-wrapper"<?php print $content_attributes; ?>>
+	  	<div class="ding-fakta-box-title">
+	    	<?php print render($content['field_ding_fakta_box_title']); ?>
+	    </div>
+	    <div class="ding-fakta-box-content">
+	    	<?php print render($content['field_ding_fakta_box_content']); ?>
+	    </div>
 	  </div>
 	</div>
 <?php endif; ?>
