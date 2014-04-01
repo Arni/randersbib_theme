@@ -28,3 +28,133 @@
 .ding-fakta-box .ding-fakta-box-title {padding-left:5px;border-bottom:3px solid #EFEFEF;}
 .ding-fakta-box .ding-fakta-box-content {padding-left:10px;padding-top:10px;}
 
+
+
+/* Eresource */
+
+.eresource .eresource-info {
+    -moz-box-sizing: border-box;
+    float: right;
+    margin-left: -33.3333%;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 0;
+    width: 33.3333%;
+    word-wrap: break-word;
+}
+
+.eresource .eresource-content {
+    -moz-box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    margin-right: -66.6667%;
+    padding-left: 0;
+    padding-right: 10px;
+    width: 66.6667%;
+    word-wrap: break-word;
+}
+
+.eresource .eresource-info p {
+    border-left: 5px solid #EFEFEF;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.eresource .eresource-info i[class^="icon-"] {
+    display: inline-block;
+    margin-left: -24px;
+    min-width: 20px;
+}
+
+.eresource-image {
+  margin-bottom: 30px;
+}
+
+.eresource h3 {
+  font-size: 130%;
+}
+
+@media only screen and (max-width: 480px)  {
+  .eresource .eresource-info {
+    margin-top: 30px;
+    padding-left: 5px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  .eresource .eresource-info p {
+    border-left: none;
+    padding-left: 10px;
+  }
+  .eresource .eresource-content {
+    width: 100%;
+  }
+}
+
+ol.circle-list {
+	counter-reset: my-badass-counter;
+  margin-top: 1.5em;
+}
+
+ol.circle-list li {
+  list-style: none;
+  margin-left: 1.0em;
+  margin-top: 1em;
+  position: relative;
+  min-height: 3em;
+
+}
+
+ol.circle-list li:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  content: counter(my-badass-counter);
+  counter-increment: my-badass-counter;
+  position: absolute;
+  left: -2.3em;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50% 50% 50% 50%;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 150%;
+  padding-top: 0.3em;
+  top: -0.1em;
+
+}
+
+.fa-mobile {
+  font-size: 3.5em;
+  margin-left: 4px;
+}
+
+.fa {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.eresource-info-text-wrapper .fa {
+  dipslay: block;
+  min-width: 1.4em;
+  float: left;
+}
+
+.eresource .fa-2x {
+  font-size: 1.7em;
+}
+
+.eresource-info-text {
+  padding-left: 2.4em;
+  display: block;
+}
+
+.eresource .eresource-info .eresource-info-text-wrapper p {
+  padding-bottom: 1em;
+}
+
+
+
+
+
+
