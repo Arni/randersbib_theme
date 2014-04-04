@@ -21,10 +21,14 @@ function randersbib_theme_preprocess_node(&$variables) {
 		));
 		$variables['ding_fakta_box'] = $fakta_box;	
 	}
+  // Eresource variables
+  if (isset($variables['content']['#bundle']) && $variables['content']['#bundle'] == 'ding_eresource' && isset($variables['content']['field_ding_eresource_link'])) {
+    $items = field_get_items('node', $node, 'field_ding_eresource_link');
+    $variables['randerbib_theme_ding_eresource_link_url'] =  $items[0]['url'];
+  }
 }
 
-/**
- * Entity preprocess function.
+/* Entity preprocess function.
  */
 function randersbib_theme_preprocess_entity(&$variables) {
 	$type = $variables['elements']['#entity_type'];

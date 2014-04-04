@@ -98,9 +98,11 @@
   
   <div class="eresource-content">
     <?php if (isset($content['field_ding_eresource_title_image'])) : ?>
-    <div class="eresource-image">
-      <?php print render($content['field_ding_eresource_title_image']); ?>
-    </div>
+      <div class="eresource-image">
+        <a href="<?php print $randerbib_theme_ding_eresource_link_url; ?>">
+          <?php print render($content['field_ding_eresource_title_image']); ?>
+        </a>
+      </div>
     <?php endif; ?>
      <div class="eresource-lead">
     <?php print render($content['field_ding_eresource_lead']); ?>
