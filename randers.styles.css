@@ -41,6 +41,7 @@
 
 .eresource .eresource-info {
     -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
     float: right;
     margin-left: -33.3333%;
     margin-right: 0;
@@ -52,6 +53,7 @@
 
 .eresource .eresource-content {
     -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
     float: left;
     margin-left: 0;
     margin-right: -66.6667%;
@@ -164,6 +166,7 @@ ol.circle-list li:before {
 
 .news .news-info, .news .news-info-top {
     -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
     float: right;
     margin-left: -33.3333%;
     margin-right: 0;
@@ -174,6 +177,7 @@ ol.circle-list li:before {
 
 .news .news-content, .news .page-header {
     -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
     float: left;
     margin-left: 0;
     margin-right: -66.6667%;
