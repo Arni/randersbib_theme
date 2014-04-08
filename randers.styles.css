@@ -269,6 +269,18 @@ ol.circle-list li:before {
 
 }
 
+/* Page */
+
+.news .page-info-circle {
+  height: 80px;
+  padding-left: 20px;
+  color: #D5D5D5;
+}
+
+.page-info-circle .fa-info-circle {
+  color: rgba(0,0,0,0.5);
+}
+
 
 
 
