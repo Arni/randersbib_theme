@@ -149,7 +149,7 @@ ol.circle-list li:before {
   float: left;
 }
 
-.eresource .fa-2x {
+.eresource .fa-2x, .news .fa-2x {
   font-size: 1.7em;
 }
 
@@ -218,6 +218,7 @@ ol.circle-list li:before {
   border-bottom: none;
   border-top: none;
   padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .news .signature .signature-label {
@@ -232,6 +233,8 @@ ol.circle-list li:before {
 .news .subjects {display: none;}
 .news .field-name-field-ding-news-materials  .field-item {background-color: #ffffff; padding-left: 0px;}
 .news .field-name-field-ding-news-materials h2 {font-size: 140%}
+
+.news .news-link-box {padding-left: 20px;}
 
 
 

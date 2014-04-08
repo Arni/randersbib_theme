@@ -95,17 +95,23 @@
 
     <h1 class="page-title"><?php print $title; ?></h1>
   </header>
-      <div class="news-info-top">
-      <?php if ($display_submitted): ?>
+  <div class="news-info-top eresource-info-text-wrapper">
+    <?php if ($display_submitted): ?>
       <section class="signature">
         <div class="signature-image"><?php print $user_picture; ?></div>
         <div class="signature-info">
-          <p><span class="signature-label"><?php print t("Posted at:"); ?></span><?php print $submitted ?></p>
-          <p><span class="signature-label"><?php print t("Posted by:"); ?></span><?php print $name; ?></p>
+          <p><i class="fa fa-clock-o fa-2x">&nbsp;</i><span class="eresource-info-text"><?php print $submitted ?></span></p>
+          <p><i class="fa fa-user fa-2x">&nbsp;</i><span class="eresource-info-text"><?php print $name; ?></span></p>
+
         </div>
       </section>
-      <?php endif; ?>
-    </div>
+    <?php endif; ?>
+    <?php if (isset($content['field_ding_news_link_box'])) : ?>
+      <div class="news-link-box">
+        <?php print render($content['field_ding_news_link_box']); ?>
+      </div> 
+    <?php endif; ?>
+  </div>
   <section class="news-content">
 
     <div class="page-lead"><?php print render($content['field_ding_news_lead']); ?></div>
@@ -119,33 +125,34 @@
     hide($content['links']);
     hide($content['field_ding_news_tags']);
     hide($content['field_collection_fakta_box']);
+    hide($content['field_ding_news_link_box']);
 
     print render($content);
     ?>
     <?php if (isset($content['field_ding_news_tags'])) : ?>
-    <span class="news-tags">
-      <?php print render($content['field_ding_news_tags']); ?>
-    </span>
+      <span class="news-tags">
+        <?php print render($content['field_ding_news_tags']); ?>
+      </span>
     <?php endif; ?>
   </section>
   <div class="news-info news-info-boxes">
     <?php if (isset($ding_fakta_box)) : ?>
-    <?php print render($ding_fakta_box); ?>
+      <?php print render($ding_fakta_box); ?>
     <?php endif; ?>
   </div>
   <footer class="news-footer">
     <?php
     // Remove the "Add new comment" link on the teaser page or if the comment
     // form is being displayed on the same page.
-    if ($teaser ||!empty($content['comments']['comment_form'])) :
-    unset($content['links']['comment']['#links']['comment-add']);
+    if ($teaser || !empty($content['comments']['comment_form'])) :
+      unset($content['links']['comment']['#links']['comment-add']);
     endif;
     ?>
 
     <?php if (!empty($content['links']['#links'])) : ?>
-    <div class="link-wrapper">
-      <?php print render($links); ?>
-    </div>
+      <div class="link-wrapper">
+        <?php print render($links); ?>
+      </div>
     <?php endif; ?>
 
     <?php print render($content['comments']); ?>
