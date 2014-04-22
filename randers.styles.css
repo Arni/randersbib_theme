@@ -11,7 +11,7 @@
 .students-content-left {width:50%; float: left}
 .students-content-right{width:50%; float: right}
 .pane-inspiration-page-covers li.list-item{display: inline-block;}
-.pane-top-recommendation-list{background-color: #ffffff;}
+
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
   .genre-list-big .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
@@ -40,40 +40,40 @@
 /* Eresource */
 
 .eresource .eresource-info {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-    float: right;
-    margin-left: -33.3333%;
-    margin-right: 0;
-    padding-left: 20px;
-    padding-right: 0;
-    width: 33.3333%;
-    word-wrap: break-word;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  float: right;
+  margin-left: -33.3333%;
+  margin-right: 0;
+  padding-left: 20px;
+  padding-right: 0;
+  width: 33.3333%;
+  word-wrap: break-word;
 }
 
 .eresource .eresource-content {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-    float: left;
-    margin-left: 0;
-    margin-right: -66.6667%;
-    padding-left: 0;
-    padding-right: 10px;
-    width: 66.6667%;
-    word-wrap: break-word;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  float: left;
+  margin-left: 0;
+  margin-right: -66.6667%;
+  padding-left: 0;
+  padding-right: 10px;
+  width: 66.6667%;
+  word-wrap: break-word;
 }
 
 .eresource .eresource-info p {
-    border-left: 5px solid #EFEFEF;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-bottom: 10px;
-    padding-left: 20px;
+  border-left: 5px solid #EFEFEF;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 .eresource .eresource-info i[class^="icon-"] {
-    display: inline-block;
-    margin-left: -24px;
-    min-width: 20px;
+  display: inline-block;
+  margin-left: -24px;
+  min-width: 20px;
 }
 
 .eresource-image {
@@ -91,7 +91,7 @@
     width: 100%;
     margin-left: 0px;
   }
-  
+
   .eresource .eresource-info p {
     border-left: none;
     padding-left: 10px;
@@ -102,7 +102,7 @@
 }
 
 ol.circle-list {
-	counter-reset: my-badass-counter;
+  counter-reset: my-badass-counter;
   margin-top: 1.5em;
 }
 
@@ -165,46 +165,46 @@ ol.circle-list li:before {
 /* News */
 
 .news .news-info, .news .news-info-top {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-    float: right;
-    margin-left: -33.3333%;
-    margin-right: 0;
-    padding-right: 0;
-    width: 33.3333%;
-    word-wrap: break-word;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  float: right;
+  margin-left: -33.3333%;
+  margin-right: 0;
+  padding-right: 0;
+  width: 33.3333%;
+  word-wrap: break-word;
 }
 
 .news .news-content, .news .page-header {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-    float: left;
-    margin-left: 0;
-    margin-right: -66.6667%;
-    padding-left: 0;   
-    width: 66.6667%;
-    word-wrap: break-word;
-    clear: both;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  float: left;
+  margin-left: 0;
+  margin-right: -66.6667%;
+  padding-left: 0;   
+  width: 66.6667%;
+  word-wrap: break-word;
+  clear: both;
 }
 
 .news .news-content {
-   padding-right: 30px;
+  padding-right: 30px;
 }
 
 .news .page-header{
-   padding-right: 0px;
+  padding-right: 0px;
 }
 
 .news .news p {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-bottom: 10px;
-    padding-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 .news .news i[class^="icon-"] {
-    display: inline-block;
-    margin-left: -24px;
-    min-width: 20px;
+  display: inline-block;
+  margin-left: -24px;
+  min-width: 20px;
 }
 
 .news .image-container {
@@ -245,7 +245,7 @@ ol.circle-list li:before {
     width: 100%;
     margin-left: 0px;
   }
-  
+
   .news .news-info p {
     border-left: none;
     padding-left: 10px;
@@ -256,7 +256,7 @@ ol.circle-list li:before {
 }
 
 @media only screen and (max-width: 480px)  {
-   .news .page-header {
+  .news .page-header {
     width: 100%;
     float: none;
   }
@@ -280,6 +280,110 @@ ol.circle-list li:before {
 .page-info-circle .fa-info-circle {
   color: rgba(0,0,0,0.5);
 }
+
+/* Front page */
+
+.frontpage-header {
+    -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  background-color: #fffffe;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.big-frontpage-image-wrapper {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+
+  padding: 16px;
+  width: 50%;
+  margin-right: -50%;
+  float: left;
+  border-right: 20px solid #EFEFEF;
+}
+
+.big-frontpage-image {
+  display:none;
+}
+
+
+
+.frontpage-header-navigation {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  width: 50%;
+  margin-left: -50%;
+  float: right;  
+  
+}
+
+.frontpage-header .genre-list-detail-wrapper {
+  margin-top: 16px;
+}
+
+.frontpage-header .group-blocks--two .group-blocks--first {
+  padding-left: 3%;
+}
+
+ .frontpage-header .more-link {padding-top:10px;}
+
+@media only screen and (max-width: 900px) and (min-width: 768px) {
+  .frontpage-header h2 {margin-bottom:0px;}
+  .frontpage-header .more-link {padding-top:25px;}
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+  .big-frontpage-image {
+    display: block;
+  }
+  .big-frontpage-image-flat {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .big-frontpage-image-wrapper {
+    border-bottom: 20px solid #EFEFEF;
+    border-right: none;
+    padding: 16px;
+    width: 100%;
+    margin-right: 0;
+    float: none;  
+  }
+
+.frontpage-header-navigation {
+  padding-left: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-left: 0;
+  float: none;  
+  
+}
+
+}
+
+.pane-top-recommendation-list{
+  background-color: #fffffe;
+  clear: both;
+}
+
+.pane-top-recommendation-list .adhl-title {
+  padding-left: 16px
+}
+
+/* Generel styling */   
+
+.topbar .logo {display: none;}
+.topbar .topbar-menu {margin-top: 25px;}
+.form-item-search-block-form label {display: none}
+.search .search-field-wrapper .form-submit {margin-top: 0px;}
+
+
+
+
+
 
 
 
