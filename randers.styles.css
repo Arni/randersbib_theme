@@ -343,7 +343,7 @@ ol.circle-list li:before {
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px)  {
   .big-frontpage-image-wrapper {
     border-bottom: 20px solid #EFEFEF;
     border-right: none;
@@ -364,13 +364,35 @@ ol.circle-list li:before {
 
 }
 
+/* ADHL list */
+
 .pane-top-recommendation-list{
   background-color: #fffffe;
   clear: both;
 }
 
 .pane-top-recommendation-list .adhl-title {
-  padding-left: 16px
+  padding-left: 16px;
+  padding-top:  16px;
+}
+
+.pane-top-recommendation-list .adhl-results li {
+  margin-bottom: 1.5em;
+  margin-right: 10px;
+}
+
+.pane-top-recommendation-list .adhl-results ul {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 480px)  {
+  .pane-top-recommendation-list .adhl-results li {
+    width: 45%;
+  }
+  
+ .pane-top-recommendation-list .adhl-results ul {
+  margin-left: 0px;
+  }
 }
 
 /* Generel styling */   
