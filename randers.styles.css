@@ -397,10 +397,20 @@ ol.circle-list li:before {
 
 /* Generel styling */   
 
-.topbar .logo {display: none;}
+.topbar .site-name-wrapper{display: none}
+.topbar .logo img {height: 50px;}
 .topbar .topbar-menu {margin-top: 25px;}
 .form-item-search-block-form label {display: none}
 .search .search-field-wrapper .form-submit {margin-top: 0px;}
+.site-header .header-wrapper {background-color: #B7C840;;}
+.site-header .topbar-menu .menu-item.active {
+    background-color: #B7C840;
+}
+
+
+/*.site-header .topbar {
+    background-color: #EFEFEF;
+}*/
 
 
 
