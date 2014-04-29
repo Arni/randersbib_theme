@@ -14,11 +14,11 @@
 
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
-  .genre-list-big .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
-  .genre-list-big .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
-  .genre-list-big .group-blocks--third {width: 50%; clear:none;border-bottom: none;padding-left:10px;}
-  .genre-list-big .group-blocks--fourth {width: 50%; margin-left:50%; float:none;padding-left: 10px;padding-right:0;clear:none;border-bottom: none;}
-  .group-blocks-2columns {clear:both; border-top: 1px solid #EFEFEF; padding-top:20px;}
+  .genre-list .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
+  .genre-list .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
+  .genre-list .group-blocks--third {width: 50%; clear:none;border-bottom: none;padding-left:10px;}
+  .genre-list .group-blocks--fourth {width: 50%; margin-left:50%; float:none;padding-left: 10px;padding-right:0;clear:none;border-bottom: none;}
+  .group-blocks--wrapper .genre-list-detail-wrapper .group-blocks-2columns {clear:both; border-top: 1px solid #EFEFEF; padding-top:20px;}
 }
 
 /* Fakta-box border:3px solid #EFEFEF;*/
@@ -415,6 +415,75 @@ ol.circle-list li:before {
     background-color: rgba(0, 0, 0, 0.7);
 /*    background-image: none;*/
 }
+
+/* Genre page */
+
+.node-type-genre-page .content-wrapper {
+    margin-top: 10px;
+    
+}
+
+.genre-title h1 {
+   font-size: 300%;
+}
+
+.node-type-genre-page .default-layout  .layout-wrapper {
+  background-color: #EFEFEF;
+  padding-top: 0px;
+}
+
+.node-type-genre-page .default-layout {
+  margin-top: 10px;
+}
+
+.pane-new-materials-covers {
+  background-color: #FFFFFF ;
+}
+
+/* Genre page news list */
+
+.pane-new-materials-covers{
+  background-color: #fffffe;
+  clear: both;
+  margin-bottom: 30px;
+}
+
+.pane-new-materials-covers .new-materials-title {
+  padding-left: 16px;
+  padding-top:  16px;
+}
+
+.pane-new-materials-covers .search-results li {
+  margin-bottom: 1.5em;
+  margin-right: 10px;
+}
+
+.pane-new-materials-covers .search-results ul {
+  margin-left: 20px;
+}
+
+/* Genre page inspiration list */
+
+.pane-inspiration-page-covers{
+  background-color: #fffffe;
+  clear: both;
+}
+
+.pane-inspiration-page-covers .new-materials-title {
+  padding-left: 16px;
+  padding-top:  16px;
+}
+
+.pane-inspiration-page-covers .search-results li {
+  margin-bottom: 1.5em;
+  margin-right: 10px;
+}
+
+.pane-inspiration-page-covers .search-results ul {
+  margin-left: 20px;
+}
+
+
 
 
 
