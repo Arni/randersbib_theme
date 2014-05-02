@@ -440,12 +440,39 @@ ol.circle-list li:before {
   background-color: #FFFFFF ;
 }
 
+.pane-related-links {
+  background-color: #FFFFFF ;
+  padding-top: 16px;
+  margin-bottom: 20px;
+}
+
+.pane-related-links .genre-list-big {
+  border: none;
+}
+
+.node-type-genre-page  .pane-node-body {
+  background-color: #FFFFFF ;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+.pane-related-content {
+  background-color: #FFFFFF;
+  padding-top: 16px;
+  margin-bottom: 20px;
+}
+
+.pane-related-content .group-blocks--inner, .pane-related-content .genre-list-big  {
+  border: none;
+}
+
 /* Genre page news list */
 
 .pane-new-materials-covers{
   background-color: #fffffe;
   clear: both;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .pane-new-materials-covers .new-materials-title {
@@ -482,6 +509,8 @@ ol.circle-list li:before {
 .pane-inspiration-page-covers .search-results ul {
   margin-left: 20px;
 }
+
+
 
 
 
