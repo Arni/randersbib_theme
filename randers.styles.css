@@ -441,6 +441,10 @@ ol.circle-list li:before {
 }
 
 .pane-related-links {
+
+}
+
+.genre-page-related-links {
   background-color: #FFFFFF ;
   padding-top: 16px;
   margin-bottom: 20px;
@@ -453,6 +457,10 @@ ol.circle-list li:before {
 .related-links-title {
   padding-left: 16px;
 }
+
+/*.pane-related-links a {
+  color: rgba(0, 0, 0, 0.7)
+}*/
 
 .node-type-genre-page  .pane-node-body {
   background-color: #FFFFFF ;
