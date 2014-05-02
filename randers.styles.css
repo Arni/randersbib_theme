@@ -527,6 +527,41 @@ ol.circle-list li:before {
   margin-left: 20px;
 }
 
+/* Oversigtside */
+
+.node-type-oversigtsside .default-layout  .layout-wrapper {
+  background-color: #EFEFEF;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.node-type-oversigtsside .genre-list-big {
+  background-color: #fffffe;
+  margin-bottom: 20px;
+  padding-left: 16px;
+  padding-top:  16px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+}
+
+.node-type-oversigtsside .genre-list-detail-wrapper {
+  background-color: #fffffe;
+  padding-left: 26px;
+  padding-top:  16px;
+  padding-bottom: 20px;
+  padding-right: 16px;
+  margin-top: 0px;
+}
+
+.node-type-oversigtsside .default-layout.empty-sidebars .primary-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.node-type-oversigtsside .pane-node-content h2.pane-title {
+  font-size: 300%;
+}
 
 
 
