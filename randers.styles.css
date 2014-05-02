@@ -450,10 +450,15 @@ ol.circle-list li:before {
   border: none;
 }
 
+.related-links-title {
+  padding-left: 16px;
+}
+
 .node-type-genre-page  .pane-node-body {
   background-color: #FFFFFF ;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 16px;
   margin-bottom: 20px;
 }
 
@@ -465,6 +470,10 @@ ol.circle-list li:before {
 
 .pane-related-content .group-blocks--inner, .pane-related-content .genre-list-big  {
   border: none;
+}
+
+.related-content-title {
+  padding-left: 16px;
 }
 
 /* Genre page news list */
