@@ -21,7 +21,18 @@
   .group-blocks--wrapper .genre-list-detail-wrapper .group-blocks-2columns {clear:both; border-top: 1px solid #EFEFEF; padding-top:20px;}
 }
 
-/* Fakta-box border:3px solid #EFEFEF;*/
+/* Search context */
+@media only screen and (max-width: 768px)  {
+  .ting-search-context .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
+  .ting-search-context .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
+  .ting-search-context .group-blocks--third {width: 50%; clear:left;border-bottom: none;padding-left:10px;float:left; margin-right:0px; margin-left:0px;}
+  .ting-search-context .group-blocks--fourth {width: 50%; margin-left:50%; float:none;padding-left: 10px;padding-right:10px;clear:none;border-bottom: none;}
+}
+
+
+
+
+/* Fakta-box */
 .ding-fakta-box .ding-fakta-box-content p {border-left:none;padding-left:0;}
 .ding-fakta-box {}
 .ding-fakta-box .content-wrapper {margin:0;margin-left: 0px;margin-right:10px;}
@@ -364,6 +375,12 @@ ol.circle-list li:before {
 
 }
 
+/* Events */
+
+.event .event-content .event-image {
+  max-width: 540px;
+}
+
 /* ADHL list */
 
 .pane-top-recommendation-list{
@@ -567,6 +584,32 @@ ol.circle-list li:before {
   margin-bottom: 0px
 }
 
+/* ADHL list object/collection */
+
+
+.pane-recommendation-list .adhl-title {
+  padding-left: 16px;
+  padding-top:  16px;
+}
+
+.pane-recommendation-list .adhl-results li {
+  margin-bottom: 1.5em;
+  margin-right: 10px;
+}
+
+.pane-recommendation-list .adhl-results ul {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 480px)  {
+  .pane-recommendation-list  .adhl-results li {
+    width: 45%;
+  }
+  
+ .pane-recommendation-list  .adhl-results ul {
+  margin-left: 0px;
+  }
+}
 
 
 
