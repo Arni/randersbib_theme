@@ -22,16 +22,24 @@
 }
 
 /* Search context */
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 768px) and (min-width: 481px)  {
   .ting-search-context .group-blocks--first {width: 50%; clear:none; border-bottom: none;}
   .ting-search-context .group-blocks--second {width: 50%; margin-left:50%;float:none; clear:none; padding-left:10px;border-bottom: none;}
   .ting-search-context .group-blocks--third {width: 50%; clear:left;border-bottom: none;padding-left:10px;float:left; margin-right:0px; margin-left:0px;}
   .ting-search-context .group-blocks--fourth {width: 50%; margin-left:50%; float:none;padding-left: 10px;padding-right:10px;clear:none;border-bottom: none;}
 }
 
+/* Search context */
+@media only screen and (max-width: 480px)   {
+  .ting-search-context .group-blocks--first {width: 100%; clear:both; border-bottom: none; margin-bottom:20px;}
+  .ting-search-context .group-blocks--second {width: 100%; float:none; clear:both; border-bottom: none; margin-right:0px; margin-left:0px; margin-bottom:20px;}
+  .ting-search-context .group-blocks--third {width: 100%; clear:both;border-bottom: none; margin-right:0px; margin-left:0px;margin-bottom:20px;}
+  .ting-search-context .group-blocks--fourth {width: 100%; ;clear:both;border-bottom: none;margin-bottom:20px;}
+}
 
-
-
+@media only screen and (max-width: 768px) {
+ .ting-search-context {padding-top:20px;}
+}
 /* Fakta-box */
 .ding-fakta-box .ding-fakta-box-content p {border-left:none;padding-left:0;}
 .ding-fakta-box {}
