@@ -423,7 +423,7 @@ ol.circle-list li:before {
 /* Generel styling */   
 
 .topbar .site-name-wrapper{display: none}
-.topbar .logo img {height: 35px;}
+.topbar .logo img {height: 40px; margin-top: 5px;}
 .topbar .topbar-menu {margin-top: 10px;}
 .form-item-search-block-form label {display: none}
 .search .search-field-wrapper .form-submit {margin-top: 0px;}
