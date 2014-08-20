@@ -349,10 +349,19 @@ ol.circle-list li:before {
 }
 
  .frontpage-header .more-link {padding-top:10px;}
+ 
+ .frontpage-header .sub-menu > li a {
+   color: #0e5376;
+   font-size: 110%;
+ }
+  
 
 @media only screen and (max-width: 900px) and (min-width: 768px) {
   .frontpage-header h2 {margin-bottom:0px;}
   .frontpage-header .more-link {padding-top:25px;}
+  .frontpage-header .sub-menu > li a {
+   font-size: 100%;    
+  }
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 768px) {
@@ -596,6 +605,10 @@ ol.circle-list li:before {
 .node-type-oversigtsside .page-title{
   margin-bottom: 0px
 }
+
+ .node-type-oversigtsside  .sub-menu > li a {
+   color: #0e5376;
+ }
 
 /* ADHL list object/collection */
 
