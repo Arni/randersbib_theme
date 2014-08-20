@@ -313,6 +313,7 @@ ol.circle-list li:before {
 .big-frontpage-image-wrapper {
   -moz-box-sizing: border-box;
   -webkit-box-sizing:border-box;
+  box-sizing:border-box;
 
   padding: 16px;
   width: 50%;
@@ -330,6 +331,7 @@ ol.circle-list li:before {
 .frontpage-header-navigation {
   -moz-box-sizing: border-box;
   -webkit-box-sizing:border-box;
+  box-sizing:border-box;
   padding-left: 20px;
   padding-bottom: 0px;
   width: 50%;
@@ -431,6 +433,9 @@ ol.circle-list li:before {
 .site-header .topbar-menu .menu-item.active {
     background-color: #B7C840;
 }
+
+.navigation-inner .main-menu .menu-item {color: rgba(0, 0, 0, 0.7);}
+.navigation-inner .secondary-menu .menu-item {color: rgba(0, 0, 0, 0.7);}
 
 .site-header .topbar {
     background-color: rgba(0, 0, 0, 0.7);
