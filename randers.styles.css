@@ -475,6 +475,10 @@ ol.circle-list li:before {
   margin-top: 10px;
 }
 
+ .node-type-genre-page  .sub-menu > li a {
+   color: #0e5376;
+ }
+
 .pane-new-materials-covers {
   background-color: #FFFFFF ;
 }
