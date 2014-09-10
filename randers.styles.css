@@ -123,6 +123,7 @@
 ol.circle-list {
   counter-reset: my-badass-counter;
   margin-top: 1.5em;
+  padding-left: 36px;
 }
 
 ol.circle-list li {
