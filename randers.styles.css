@@ -406,7 +406,7 @@ ol.circle-list li:before {
   }
 
 .frontpage-header-navigation {
-  padding-left: 20px;
+  padding-left: 0px;
   padding-bottom: 0px;
   width: 100%;
   margin-left: 0;
@@ -414,8 +414,24 @@ ol.circle-list li:before {
   clear: both;
   margin-top: 20px;
 }
-
 }
+
+@media only screen and (max-width: 900px) and (min-width: 480px) {
+  .frontpage-links {
+    padding-left: 7%;
+    padding-right:1%;
+    width: 41%;
+    float: left;
+  }
+  
+  .frontpage-header-navigation .frontpage-links--fourth,  .frontpage-header-navigation .frontpage-links--second{
+     float: right;
+  }
+  .frontpage-header-navigation .frontpage-links--third {
+     margin-bottom:0px
+  }
+}
+
 
 /* Events */
 
