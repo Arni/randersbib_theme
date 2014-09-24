@@ -343,15 +343,27 @@ ol.circle-list li:before {
 .frontpage-links {
   margin-bottom: 20px;
   background-color: #fffffe;
-  padding-left: 20px;
-  padding-bottom: 4px;
-  padding-top: 12px;
+  padding-left: 40px;
+  padding-bottom: 7px;
+  padding-top: 16px;
   padding-right: 10px;
 
 }
 
+.frontpage-links .fa {
+  position: relative;
+  top: -0.8em;
+  right: 2em;
+  font-size: 30%;
+}
+
+.frontpage-links h2 {
+  font-size: 140%;
+}
+
 .frontpage-header-navigation .frontpage-links--fourth {
   margin-bottom: 0px;
+  padding-bottom: 9px;
 }
 
 .frontpage-header .genre-list-detail-wrapper {
