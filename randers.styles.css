@@ -350,6 +350,10 @@ ol.circle-list li:before {
 
 }
 
+.frontpage-header-navigation .frontpage-links--fourth {
+  margin-bottom: 0px;
+}
+
 .frontpage-header .genre-list-detail-wrapper {
   margin-top: 16px;
 }
