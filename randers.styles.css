@@ -680,6 +680,9 @@ ol.circle-list li:before {
   }
 }
 
+/*Quick fix checkboxes dont't work'*/
+#ding-loan-loans-form .form-item-title input { display: none;}
+
 
 
 

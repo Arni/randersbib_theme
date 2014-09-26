@@ -12,6 +12,7 @@ stylesheets[all][] = css/font-awesome.min.css
 ;----------// JavaScripts
  scripts[] = scripts/ddbasic.search.min.js
  scripts[] = scripts/ddbasic.topbar.menu.min.js
+ scripts[] = scripts/bibsdb.js
 
 ;----------// Regions
   regions[header]            = Header
