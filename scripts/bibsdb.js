@@ -148,10 +148,15 @@
 			});			
 			
 		}	
+    
+     function change_user_node_link() {
+			 $( ".topbar-link-user-account a" ).attr("href", "/user");
+		 }
 		
 		
 		// do the magic
     add_renew_all_loans_button();
+    change_user_node_link()
     
 //		hide_reservation_interest_period();
 //		hide_role_menu_item_on_profile_page();
