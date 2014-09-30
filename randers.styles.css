@@ -1,7 +1,13 @@
 .genre-list-big .group-blocks--fourth{padding-right: 10px;}
 .genre-list-big .group-blocks--first {padding-left: 10px;}
+
+
+/* Ting search context */
 .ting-search-context .group-blocks--fourth{padding-right: 10px;}
 .ting-search-context .group-blocks--first {padding-left: 10px;}
+.ting-search-context .group-blocks--inner h2 {font-size: 140%;}
+
+
 .group-blocks--inner p {margin-top: 0px;}
 .page-content .group-blocks--inner  li {list-style: none outside none;}
 .genre-list-detail-wrapper {  margin-top:30px;}
@@ -565,6 +571,9 @@ ol.circle-list li:before {
 .related-content-title {
   padding-left: 16px;
 }
+
+#ting-genre-page-related-content .group-blocks--inner h2 {font-size: 140%;}
+
 
 /* Genre page news list */
 
