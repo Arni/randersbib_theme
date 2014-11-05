@@ -119,7 +119,7 @@
     <?php endif; ?>
       
     <?php if (isset($content['field_place2book_tickets'])): ?>
-      <p> <?php print render($content['field_place2book_tickets']); ?></p>
+     <?php print render($content['field_place2book_tickets']); ?>
     <?php endif; ?>  
 
     <?php if (isset($ding_fakta_box)): ?>
