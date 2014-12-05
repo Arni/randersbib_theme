@@ -701,6 +701,11 @@ ol.circle-list li:before {
 #ding-loan-loans-form .form-item-title input { display: none;}
 
 
+/* Webform */
+
+.node-webform .webform-component-date {width: 200px;}
+
+
 
 
 
