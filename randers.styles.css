@@ -442,7 +442,7 @@ ol.circle-list li:before {
   }
 }
 
-.page-ding-frontpage .frontpage-layout .news-list-item {background-color: #ffffff;}
+.page-ding-frontpage .frontpage-layout .news-list-item {background-color: #ffffff; }
 .page-ding-frontpage .frontpage-layout .event-list-item  {background-color: #ffffff;}
 .page-ding-frontpage .frontpage-layout .event-list-leaf {background-color: #ffffff;}
 .page-ding-frontpage .frontpage-layout .event-list-leaf .event-list-inner-wrapper {background-color: #f2f2f2;}
@@ -461,7 +461,8 @@ ol.circle-list li:before {
   background-color: #fff;
   padding-left: 20px;
   padding-top: 16px;
-  width: 64.6667%
+  width: 64.6667%;
+  padding-bottom: 20px;
 
 }
 
@@ -469,6 +470,7 @@ ol.circle-list li:before {
   background-color: #fff;
   padding-left: 16px;
   padding-top: 16px;
+  padding-bottom: 20px;
 }
 
 
