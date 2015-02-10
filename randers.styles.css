@@ -449,7 +449,7 @@ ol.circle-list li:before {
 .page-ding-frontpage .frontpage-layout .news-list-item .news-image-wrapper {max-width: 250px;}
 
 .page-ding-frontpage .frontpage-layout .layout-wrapper {
-  background-color: none;
+  background-color: inherit;
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 0px;
