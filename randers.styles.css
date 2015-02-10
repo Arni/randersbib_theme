@@ -442,7 +442,7 @@ ol.circle-list li:before {
   }
 }
 
-.page-ding-frontpage .frontpage-layout .news-list-item li, .page-ding-frontpage .frontpage-layout .event-list-item li  {background-color: #ffffff;}
+.page-ding-frontpage .frontpage-layout .news-list-item, .page-ding-frontpage .frontpage-layout .event-list-item  {background-color: #ffffff;}
 .page-ding-frontpage .frontpage-layout .event-list-leaf {background-color: #ffffff;}
 .page-ding-frontpage .frontpage-layout .event-list-leaf .event-list-inner-wrapper {background-color: #f2f2f2;}
 .page-ding-frontpage .frontpage-layout .event-list-leaf .event-list-day {background-color: green;}
