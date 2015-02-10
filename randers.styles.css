@@ -476,6 +476,14 @@ ol.circle-list li:before {
 
 .page-ding-frontpage .frontpage-layout .layout-wrapper h2.pane-title {font-size: 180%;}
 
+@media only screen and (max-width: 768px) {
+   .page-ding-frontpage .frontpage-layout .secondary-content { width: 100%;}
+}
+
+@media only screen and (max-width: 940px) and (min-width: 768px) {
+   .page-ding-frontpage .frontpage-layout .news-list-item .news-image-wrapper {max-width: 200px;}
+}
+
 /* Events */
 
 .event .event-content .event-image {
