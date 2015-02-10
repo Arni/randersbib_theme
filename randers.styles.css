@@ -442,6 +442,36 @@ ol.circle-list li:before {
   }
 }
 
+.page-ding-frontpage .frontpage-layout .news-list-item li, .page-ding-frontpage .frontpage-layout .event-list-item li  {background-color: #ffffff;}
+.page-ding-frontpage .frontpage-layout .event-list-leaf {background-color: #ffffff;}
+.page-ding-frontpage .frontpage-layout .event-list-leaf .event-list-inner-wrapper {background-color: #f2f2f2;}
+.page-ding-frontpage .frontpage-layout .event-list-leaf .event-list-day {background-color: green;}
+.page-ding-frontpage .frontpage-layout .news-list-item .news-image-wrapper {max-width: 250px;}
+
+.page-ding-frontpage .frontpage-layout .layout-wrapper {
+  background-color: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+
+}
+
+.page-ding-frontpage .frontpage-layout .secondary-content {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-top: 16px;
+  width: 64.6667%
+
+}
+
+.page-ding-frontpage .frontpage-layout .tertiary-content {
+  background-color: #fff;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+
+.page-ding-frontpage .frontpage-layout .layout-wrapper h2.pane-title {font-size: 180%;}
 
 /* Events */
 
