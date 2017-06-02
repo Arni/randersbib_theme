@@ -152,11 +152,18 @@
      function change_user_node_link() {
 			 $( ".topbar-link-user-account a" ).attr("href", "/user");
 		 }
-		
+                 
+        function placement_of_wayf() {
+            var wrapper = $('<section class="wayf-wrapper"></section>');
+            $('.pane-ding-gatewayf-registration-registration').appendTo(wrapper);
+            $('.pane-ding-gatewayf-login').appendTo(wrapper);
+            wrapper.appendTo($('.header-inner'));
+        }	
 		
 		// do the magic
+    placement_of_wayf();
     add_renew_all_loans_button();
-    change_user_node_link()
+    change_user_node_link();
     
 //		hide_reservation_interest_period();
 //		hide_role_menu_item_on_profile_page();
