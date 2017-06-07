@@ -746,6 +746,45 @@ ol.circle-list li:before {
 
 .node-webform .webform-component-date {width: 200px;}
 
+/* User WAYF login
+   ========================================================================== */
+.wayf-wrapper {
+  position: absolute;
+  right: 20px;
+  bottom: 15px; }
+
+.ding-gatewayf--cancel {
+  margin-left: 15px; }
+
+.pane-ding-gatewayf-login {
+  display: inline-block;
+  margin-left: 20px; }
+  .pane-ding-gatewayf-login .ding-gatewayf--login-block {
+    background-color: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 4px 15px; }
+    .pane-ding-gatewayf-login .ding-gatewayf--login-block a {
+      color: rgba(0, 0, 0, 0.7); }
+  .pane-ding-gatewayf-login img {
+    height: 20px;
+    padding-bottom: 2px; }
+
+.pane-ding-gatewayf-registration-registration {
+  display: inline-block; }
+  .pane-ding-gatewayf-registration-registration .ding-gatewayf--registration {
+    background-color: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 4px 15px; }
+    .pane-ding-gatewayf-registration-registration .ding-gatewayf--registration .ding-gatewayf-registration-link {
+      color: rgba(0, 0, 0, 0.7); }
+
+.ding-gatewayf--link-wrapper {
+  margin-top: 10px; }
+
 
 
 
